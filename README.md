@@ -5,17 +5,23 @@
 一个简单的自定义EditText，通过设置分割点，即可自动分割号码长度，欢迎提Issue。
 
 * maven
+
+```
 <dependency>
   <groupId>com.stone.splitphone</groupId>
   <artifactId>splitphone</artifactId>
   <version>1.0.0</version>
   <type>pom</type>
 </dependency>
+```
 
 * gradle
-compile 'com.stone.splitphone:splitphone:1.0.0'
 
-###使用方式：
+```
+compile 'com.stone.splitphone:splitphone:1.0.0'
+```
+
+### 使用方式：
 
 xml中：
 ```
